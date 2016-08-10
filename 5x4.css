@@ -1,15 +1,20 @@
 /*GRID 5x4*/
-.obj {position: absolute;}
-.gm, .gma, .gmb, .gmc, .gmd {-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);}
-.gc, .gca, .gcb, .gcc, .gcd, .gce {-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);transform: translateX(-50%);}
+.gta,.gtb,.gtc,.gtd,.gba,.gbb,.gbc,.gbd,.gma,.gmb,.gmc,.gmd,				/*VERTICAL*/
+.gla,.glb,.glc,.gld,.gle,.gra,.grb,.grc,.grd,.gre,.gca,.gcb,.gcc,.gcd,.gce	/*HORIZONTAL*/
+{position: absolute;}
 
-.gta {top: 0;}		.gba {bottom: 0;}	.gma {top: 12.5%;}
+.gm, .gma, .gmb, .gmc, .gmd 												/*VERTICAL*/
+{-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);}
+.gc, .gca, .gcb, .gcc, .gcd, .gce 											/*HORIZONTAL*/
+{-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);transform: translateX(-50%);}
+
+.gta {top: 0;}		.gba {bottom: 0;}	.gma {top: 12.5%;}					/*VERTICAL*/
 .gtb {top: 25%;}	.gbb {bottom: 25%;}	.gmb {top: 37.5%;}
 .gtc {top: 50%;}	.gbc {bottom: 50%;}	.gmc {top: 62.5%;}
 .gtd {top: 75%;}	.gbd {bottom: 75%;}	.gmd {top: 87.5%;}
 
-.gla {left: 0;}		.gra {right: 0;}	.gma {left: 10%;}
-.glb {left: 20%;}	.grb {right: 20%;}	.gmb {left: 30%;}
-.glc {left: 40%;}	.grc {right: 40%;}	.gmc {left: 50%;}
-.gld {left: 60%;}	.grd {right: 60%;}	.gmd {left: 70%;}
-.gle {left: 80%;}	.gre {right: 80%;}	.gme {left: 90%;}
+.gla {left: 0;}		.gra {right: 0;}	.gca {left: 10%;}					/*HORIZONTAL*/
+.glb {left: 20%;}	.grb {right: 20%;}	.gcb {left: 30%;}
+.glc {left: 40%;}	.grc {right: 40%;}	.gcc {left: 50%;}
+.gld {left: 60%;}	.grd {right: 60%;}	.gcd {left: 70%;}
+.gle {left: 80%;}	.gre {right: 80%;}	.gce {left: 90%;}
